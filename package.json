@@ -1,0 +1,21 @@
+{
+  "name": "zadanie-25-7-expressjs-authgoogle",
+  "version": "1.0.0",
+  "description": "ExpressJs Authorization Google",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "author": "fabz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "pug": "^2.0.4"
+  }
+}
