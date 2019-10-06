@@ -1,9 +1,11 @@
-  
-html    
+doctype html
+html(lang='pl')
     head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        meta(title="express, pug, google")
         style
             include ../css/style.css
-        title="express, pug, google"
     body
         h1 Zaloguj się, naciśnij przycisk
             a(href="/auth/google"): div(class="container"): button.google_auth_button Login
