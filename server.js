@@ -1,9 +1,9 @@
 const express = require('express');
 const passport = require('passport');
-const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+let GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 const config = require('./config');
-const app = express();
-const googleProfile = {};
+let app = express();
+let googleProfile = {};
 
 // utrzymania sesji logowania, poprzez serializowanie ( kiedy sa wykonywane zadania uzytkownika )
 passport.serializeUser(function (user, done) {
