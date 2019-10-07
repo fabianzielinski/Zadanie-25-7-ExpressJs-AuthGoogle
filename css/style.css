@@ -1,9 +1,23 @@
 body {
-	background-color: #a4d3ee;
+	background-color: #0984e3;
 	height: auto;
 	width: auto;
 	text-align: center;
 	padding: 10%;
+}
+
+h1 {
+	color: #2d3436;
+	background: #dfe6e9;
+	padding: 30px;
+}
+
+button {
+	width: 150px;
+	cursor: pointer;
+	margin: 20px;
+	padding: 10px;
+	background-color: #b2bec3;
 }
 
 
